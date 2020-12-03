@@ -14,7 +14,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @Getter
 @Setter
-public class match_stats<P> {
+public class match_stats {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
